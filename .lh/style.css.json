@@ -1,0 +1,158 @@
+{
+    "sourceFile": "style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 35,
+            "patches": [
+                {
+                    "date": 1691418885882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1691418897097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-@i\n\\ No newline at end of file\n+@import ur\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691418903927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-@import ur\n\\ No newline at end of file\n+@import url('')\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691418984283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-@import url('')\n\\ No newline at end of file\n+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro')\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419047110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro')\n\\ No newline at end of file\n+@import url('https://fonts.googleapis.com/css2?family=Spartan')\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419055463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-@import url('https://fonts.googleapis.com/css2?family=Spartan')\n\\ No newline at end of file\n+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght')\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419069110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght')\n\\ No newline at end of file\n+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900')\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419074532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900')\n\\ No newline at end of file\n+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display')\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419080986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display')\n\\ No newline at end of file\n+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap')\n"
+                },
+                {
+                    "date": 1691419086454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,4 @@\n @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap')\n+* {\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419092385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap')\n * {\n-    \n+    mar\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419100952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap')\n+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');\n * {\n-    mar\n+    margin: 0;\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419112337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');\n * {\n     margin: 0;\n-\n+    padding: 0;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419119298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');\n * {\n     margin: 0;\n     padding: 0;\n+    box-sizing: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419127369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');\n * {\n     margin: 0;\n     padding: 0;\n-    box-sizing: ;\n+    box-sizing: border-box;\n+    fon\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419136570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n * {\n     margin: 0;\n     padding: 0;\n     box-sizing: border-box;\n-    fon\n+    font-family: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419142149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n * {\n     margin: 0;\n     padding: 0;\n     box-sizing: border-box;\n-    font-family: ;\n+    font-family: 'S';\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419151937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n * {\n     margin: 0;\n     padding: 0;\n     box-sizing: border-box;\n-    font-family: 'S';\n+    font-family: 'Spartan', sans s;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419163555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n * {\n     margin: 0;\n     padding: 0;\n     box-sizing: border-box;\n-    font-family: 'Spartan', sans s;\n+    font-family: 'Spartan', sans-serif;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419169983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,7 @@\n     margin: 0;\n     padding: 0;\n     box-sizing: border-box;\n     font-family: 'Spartan', sans-serif;\n-}\n\\ No newline at end of file\n+}\n+\n+h1\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419177357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,7 @@\n     box-sizing: border-box;\n     font-family: 'Spartan', sans-serif;\n }\n \n-h1\n\\ No newline at end of file\n+h1{\n+    fon\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419184199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,7 @@\n     font-family: 'Spartan', sans-serif;\n }\n \n h1{\n-    fon\n+    font-size: 50px;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419192228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,6 @@\n }\n \n h1{\n     font-size: 50px;\n-    \n+    line-height: 64px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419199813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,5 +8,6 @@\n \n h1{\n     font-size: 50px;\n     line-height: 64px;\n+    color: #222;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419204958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,5 +9,7 @@\n h1{\n     font-size: 50px;\n     line-height: 64px;\n     color: #222;\n-}\n\\ No newline at end of file\n+}\n+\n+h2\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419210588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,11 +5,13 @@\n     box-sizing: border-box;\n     font-family: 'Spartan', sans-serif;\n }\n \n-h1{\n+h1 {\n     font-size: 50px;\n     line-height: 64px;\n     color: #222;\n }\n \n\\ No newline at end of file\n-h2\n+h2 {\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419218963,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,6 +12,8 @@\n     color: #222;\n }\n \n h2 {\n-    \n+    font-size: 50px;\n+    line-height: 64px;\n+    color: #222;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419227061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,8 @@\n     color: #222;\n }\n \n h2 {\n-    font-size: 50px;\n-    line-height: 64px;\n+    font-size: 46px;\n+    line-height: 54px;\n     color: #222;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419233879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,5 +15,11 @@\n h2 {\n     font-size: 46px;\n     line-height: 54px;\n     color: #222;\n+}\n+\n+h4 {\n+    font-size: 50px;\n+    line-height: 64px;\n+    color: #222;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419240659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,7 @@\n     color: #222;\n }\n \n h4 {\n-    font-size: 50px;\n-    line-height: 64px;\n+    font-size: 20px;\n     color: #222;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419273021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,5 +20,11 @@\n \n h4 {\n     font-size: 20px;\n     color: #222;\n+}\n+\n+h6 {\n+    font-size: 50px;\n+    line-height: 64px;\n+    color: #222;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419283988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,7 @@\n     color: #222;\n }\n \n h6 {\n-    font-size: 50px;\n-    line-height: 64px;\n+    font-size: 700;\n     color: #222;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419291522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,7 +23,7 @@\n     color: #222;\n }\n \n h6 {\n-    font-size: 700;\n+    font-size: 12px;\n     color: #222;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419297955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,6 +24,6 @@\n }\n \n h6 {\n     font-size: 12px;\n-    color: #222;\n+    font-weight: 7000;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419304930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,5 +25,9 @@\n \n h6 {\n     font-size: 12px;\n     font-weight: 700;\n+}\n+\n+p {\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691419358932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,6 +34,6 @@\n     margin: 15px 0 20px 0;\n }\n \n .section-p1 {\n-\n+    \n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1691418885882,
+            "name": "Commit-0",
+            "content": "@i"
+        }
+    ]
+}

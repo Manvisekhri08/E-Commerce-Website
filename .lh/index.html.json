@@ -1,0 +1,154 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 34,
+            "patches": [
+                {
+                    "date": 1691418640144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1691418645919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,4 @@\n-<!\n\\ No newline at end of file\n+<!DOCTYPE html>\n+<html>\n+    \n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691418654151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n <!DOCTYPE html>\n-<html>\n-    \n+<html lang >\n+\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691418659937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n <!DOCTYPE html>\n-<html lang >\n-\n+<html lang = \"en\">\n+    \n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691418665929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n <!DOCTYPE html>\n <html lang = \"en\">\n-    \n+    <head.\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691418671104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n <!DOCTYPE html>\n <html lang = \"en\">\n-    <head.\n+    <head>\n+        \n+    </head>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691418685263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <!DOCTYPE html>\n <html lang = \"en\">\n-    <head>\n-        \n+<head>\n+    <meta charset=\"\"\n     </head>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691418691670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <!DOCTYPE html>\n <html lang = \"en\">\n <head>\n-    <meta charset=\"\"\n+    <meta charset=\"UTF-8\"\n     </head>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691418704539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <!DOCTYPE html>\n <html lang = \"en\">\n <head>\n-    <meta charset=\"UTF-8\"\n-    </head>\n+    <meta charset=\"UTF-8\">\n+</head>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691418710092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,8 @@\n <html lang = \"en\">\n <head>\n     <meta charset=\"UTF-8\">\n </head>\n+<body>\n+    \n+</body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691418719851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n <head>\n     <meta charset=\"UTF-8\">\n </head>\n <body>\n-    \n+    <script src=\"\"\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691418739643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n <!DOCTYPE html>\n <html lang = \"en\">\n <head>\n     <meta charset=\"UTF-8\">\n+    <title></title>\n </head>\n <body>\n-    <script src=\"\"\n+    <script src=\"script.js\"></script>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691418751953,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <!DOCTYPE html>\n <html lang = \"en\">\n <head>\n     <meta charset=\"UTF-8\">\n-    <title></title>\n+    <title>E-Commerce Website</title>\n </head>\n <body>\n     <script src=\"script.js\"></script>\n </body>\n"
+                },
+                {
+                    "date": 1691418757313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n <html lang = \"en\">\n <head>\n     <meta charset=\"UTF-8\">\n     <title>E-Commerce Website</title>\n+    \n </head>\n <body>\n     <script src=\"script.js\"></script>\n </body>\n"
+                },
+                {
+                    "date": 1691418763508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n <html lang = \"en\">\n <head>\n     <meta charset=\"UTF-8\">\n     <title>E-Commerce Website</title>\n-    \n+    <link re\n </head>\n <body>\n     <script src=\"script.js\"></script>\n </body>\n"
+                },
+                {
+                    "date": 1691418773610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n <html lang = \"en\">\n <head>\n     <meta charset=\"UTF-8\">\n     <title>E-Commerce Website</title>\n-    <link re\n+    <link rel=\"stylesheet\"\n </head>\n <body>\n     <script src=\"script.js\"></script>\n </body>\n"
+                },
+                {
+                    "date": 1691418781517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n <html lang = \"en\">\n <head>\n     <meta charset=\"UTF-8\">\n     <title>E-Commerce Website</title>\n-    <link rel=\"stylesheet\"\n+    <link rel=\"stylesheet\" href=\"\"\n </head>\n <body>\n     <script src=\"script.js\"></script>\n </body>\n"
+                },
+                {
+                    "date": 1691418788164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n <html lang = \"en\">\n <head>\n     <meta charset=\"UTF-8\">\n     <title>E-Commerce Website</title>\n-    <link rel=\"stylesheet\" href=\"\"\n+    <link rel=\"stylesheet\" href=\"style.css\">\n </head>\n <body>\n     <script src=\"script.js\"></script>\n </body>\n"
+                },
+                {
+                    "date": 1691463723827,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,8 @@\n     <title>E-Commerce Website</title>\n     <link rel=\"stylesheet\" href=\"style.css\">\n </head>\n <body>\n+    <se\n     <script src=\"script.js\"></script>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691463732039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,8 @@\n     <title>E-Commerce Website</title>\n     <link rel=\"stylesheet\" href=\"style.css\">\n </head>\n <body>\n-    <se\n+    <section id=\"header\"\n     <script src=\"script.js\"></script>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691463737658,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,10 @@\n     <title>E-Commerce Website</title>\n     <link rel=\"stylesheet\" href=\"style.css\">\n </head>\n <body>\n-    <section id=\"header\"\n+    <section id=\"header\">\n+        <a href=\"\"\n+    </section>\n     <script src=\"script.js\"></script>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691463744013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <link rel=\"stylesheet\" href=\"style.css\">\n </head>\n <body>\n     <section id=\"header\">\n-        <a href=\"\"\n+        <a href=\"#\"><img</a>\n     </section>\n     <script src=\"script.js\"></script>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691463752336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <link rel=\"stylesheet\" href=\"style.css\">\n </head>\n <body>\n     <section id=\"header\">\n-        <a href=\"#\"><img</a>\n+        <a href=\"#\"><img sr</a>\n     </section>\n     <script src=\"script.js\"></script>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691463758582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <link rel=\"stylesheet\" href=\"style.css\">\n </head>\n <body>\n     <section id=\"header\">\n-        <a href=\"#\"><img sr</a>\n+        <a href=\"#\"><img src=\"\"></a>\n     </section>\n     <script src=\"script.js\"></script>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691463764802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <link rel=\"stylesheet\" href=\"style.css\">\n </head>\n <body>\n     <section id=\"header\">\n-        <a href=\"#\"><img src=\"\"></a>\n+        <a href=\"#\"><img src=\"\" class=\"logo\"></a>\n     </section>\n     <script src=\"script.js\"></script>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691463775523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <link rel=\"stylesheet\" href=\"style.css\">\n </head>\n <body>\n     <section id=\"header\">\n-        <a href=\"#\"><img src=\"\" class=\"logo\"></a>\n+        <a href=\"#\"><img src=\"\" class=\"logo\" alt></a>\n     </section>\n     <script src=\"script.js\"></script>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691464175595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <link rel=\"stylesheet\" href=\"style.css\">\n </head>\n <body>\n     <section id=\"header\">\n-        <a href=\"#\"><img src=\"\" class=\"logo\" alt></a>\n+        <a href=\"#\"><img src=\"img/logo.png\" class=\"logo\" alt=\"\"></a>\n     </section>\n     <script src=\"script.js\"></script>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691464294086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n     <link rel=\"stylesheet\" href=\"style.css\">\n </head>\n <body>\n     <section id=\"header\">\n+       \n         <a href=\"#\"><img src=\"img/logo.png\" class=\"logo\" alt=\"\"></a>\n     </section>\n     <script src=\"script.js\"></script>\n </body>\n"
+                },
+                {
+                    "date": 1691464301543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,8 @@\n     <link rel=\"stylesheet\" href=\"style.css\">\n </head>\n <body>\n     <section id=\"header\">\n-       \n         <a href=\"#\"><img src=\"img/logo.png\" class=\"logo\" alt=\"\"></a>\n     </section>\n     <script src=\"script.js\"></script>\n </body>\n"
+                },
+                {
+                    "date": 1691464309698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,10 @@\n </head>\n <body>\n     <section id=\"header\">\n         <a href=\"#\"><img src=\"img/logo.png\" class=\"logo\" alt=\"\"></a>\n+\n+        <div></div>\n     </section>\n     <script src=\"script.js\"></script>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691464315661,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,11 @@\n <body>\n     <section id=\"header\">\n         <a href=\"#\"><img src=\"img/logo.png\" class=\"logo\" alt=\"\"></a>\n \n-        <div></div>\n+        <div>\n+            <ul id=\"\"\n+        </div>\n     </section>\n     <script src=\"script.js\"></script>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1691464321165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,11 @@\n     <section id=\"header\">\n         <a href=\"#\"><img src=\"img/logo.png\" class=\"logo\" alt=\"\"></a>\n \n         <div>\n-            <ul id=\"\"\n+            <ul id=\"navbar\">\n+                \n+            </ul>\n         </div>\n     </section>\n     <script src=\"script.js\"></script>\n </body>\n"
+                },
+                {
+                    "date": 1691464328558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n         <a href=\"#\"><img src=\"img/logo.png\" class=\"logo\" alt=\"\"></a>\n \n         <div>\n             <ul id=\"navbar\">\n-                \n+                <li\n             </ul>\n         </div>\n     </section>\n     <script src=\"script.js\"></script>\n"
+                },
+                {
+                    "date": 1691464334334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n         <a href=\"#\"><img src=\"img/logo.png\" class=\"logo\" alt=\"\"></a>\n \n         <div>\n             <ul id=\"navbar\">\n-                <li><a</li>\n+                <li><a></a></li>\n             </ul>\n         </div>\n     </section>\n     <script src=\"script.js\"></script>\n"
+                },
+                {
+                    "date": 1691464758037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+<!DOCTYPE html>\n+<html lang = \"en\">\n+<head>\n+    <meta charset=\"UTF-8\">\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=EDGE\">\n+    <title>E-Commerce Website</title>\n+    <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.15.4/css/all.css\">\n+    <link rel=\"stylesheet\" href=\"style.css\">\n+</head>\n+<body>\n+    <section id=\"header\">\n+        <a href=\"#\"><img src=\"img/logo.png\" class=\"logo\" alt=\"\"></a>\n+\n+        <div>\n+            <ul id=\"navbar\">\n+                <li><a href=\"index.html\">Home</a></li>\n+                <li><a href=\"shop.html\">Shop</a></li>\n+                <li><a href=\"blog.html\">Blog</a></li>\n+                <li><a href=\"about.html\">About</a></li>\n+                <li><a href=\"contact.html\">Contact</a></li>\n+                <li><a href=\"\"></a></li>\n+            </ul>\n+        </div>\n+    </section>\n+    <script src=\"script.js\"></script>\n+</body>\n+</html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1691418640144,
+            "name": "Commit-0",
+            "content": "<!"
+        }
+    ]
+}
