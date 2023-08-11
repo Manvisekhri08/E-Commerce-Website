@@ -352,21 +352,6 @@ body {
     min-width: 800px;
 }
 
-#sm-banner .banner-box2{
-    background-image: url("img/banner/b7.jpg");
-    min-width: 530px;
-}
-
-#sm-banner .banner-box3{
-    background-image: url("img/banner/b4.jpg");
-    min-width: 530px;
-}
-
-#sm-banner .banner-box4{
-    background-image: url("img/banner/b18.jpg");
-    min-width: 530px;
-}
-
 button.banner {
     font-size: 13px;
     font-weight: 600;
@@ -384,22 +369,45 @@ button.banner {
     border: 1px solid#088178;
 }
 
-#sm-banner .banner-box1:hover button{
-    background: #088178;
-    border: 1px solid#088178;
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
 }
 
-#sm-banner .banner-box2:hover button{
-    background: #088178;
-    border: 1px solid#088178;
+#banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/banner/b7.jpg");
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
-#sm-banner .banner-box3:hover button{
-    background: #088178;
-    border: 1px solid#088178;
+#banner3 h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
 }
 
-#sm-banner .banner-box4:hover button{
-    background: #088178;
-    border: 1px solid#088178;
+#banner3 h3 {
+    color: #ec554e;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#banner3 .banner-box3{
+    background-image: url("img/banner/b4.jpg");
+    min-width: 530px;
+}
+
+#banner3 .banner-box4{
+    background-image: url("img/banner/b18.jpg");
+    min-width: 530px;
 }
